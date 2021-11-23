@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.lousiesmods.simplefarmworld.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "simplefarmworld.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "client.MixinServerWorldInfo"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
